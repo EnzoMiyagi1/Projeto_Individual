@@ -80,7 +80,7 @@ header .logo_leve {
 .Inicio{
      min-height: 100vh;
     width: 100%;
-    background-image: url("../assets/institucional/imagem_inicio.jpg");
+    background-image: url("../assets/institucional1/imagem_inicio.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -90,7 +90,7 @@ header .logo_leve {
     align-items: center;
 }
  .Pagina_Inicio{
-    color: white;
+    color: var(--branco);
     text-align: center;
     font-size: 40px;
     font-family:'"Poppins", sans-serif';

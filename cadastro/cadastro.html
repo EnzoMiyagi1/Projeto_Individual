@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AutoSports | Cadastro</title>
+  <link rel="stylesheet" href="../cadastro/cadstyle.css">
+  <link rel="stylesheet" href="cadstyle.css">
+  <link rel="stylesheet" href="cadastro.css">
+</head>
+
+<body>
+  <header>
+    <div class="section_header">
+      <div class="texto_logo">
+        <span class="logo_leve">Auto</span>
+        <span class="logo_forte">Sports</span>
+      </div>
+    </div>
+
+    <div class="section_header">
+      <nav class="menu_navegacao">
+        <a href="../institucional/institucional.html" class="link_header">Início</a>
+        <a href="login.html" class="link_header">Login</a>
+        <a href="../cadastro/cadastro.html" class="link_header link_ativo">Cadastro</a>
+      </nav>
+    </div>
+  </header>
+
+
+
+  <section id="PaginaCad" class="PaginaCad">
+    <div class="CadImagem">
+
+      <div class="AreaDoCad">
+
+        <div class="DivCad">
+          <h2>Faça seu cadastro</h2>
+        </div>
+
+        <div class="DivCad">
+          <label for="ipt_CadastroNome">Nome completo</label>
+          <input class="LocalDeInsert" type="text" id="ipt_CadastroNome">
+
+          <label for="ipt_CadastroEmail">Email</label>
+          <input class="LocalDeInsert" type="email" id="ipt_CadastroEmail">
+
+          <label for="ipt_CadastroSenha">Senha</label>
+          <input class="LocalDeInsert" type="password" id="ipt_CadastroSenha" oninput="Validar()">
+
+
+          <ul class="RegrasSenha">
+            <li id="regra_tamanho">○ Mínimo de 8 caracteres</li>
+            <li id="regra_min">○ Uma letra minúscula</li>
+            <li id="regra_mai">○ Uma letra maiúscula</li>
+            <li id="regra_num">○ Um número</li>
+            <li id="regra_esp">○ Um caractere especial (! @ # $ % & * _ - . , /)</li>
+          </ul>
+
+          <label for="ipt_CadastroConfirmarSenha">Confirmar senha</label>
+          <input class="LocalDeInsert" type="password" id="ipt_CadastroConfirmarSenha" oninput="ValidarConfirmacao()">
+          <div id="Mensagem_confirmacao" class="Mensagem"></div>
+        </div>
+
+        <div id="Mensagem_cadastro" class="Mensagem MensagemGeral"></div>
+
+        <div class="DivBotao">
+          <button class="ButtonCad" onclick="Cadastrar()">Criar conta</button>
+          <p class="JaTemConta">Já tem conta? <a href="login.html">Entrar</a></p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+
+  <footer>
+    <div class="footer_topo">
+      <div class="texto_logo">
+        <span class="logo_leve">Auto</span>
+        <span class="logo_forte">Sports</span>
+      </div>
+
+      <nav>
+        <a href="index.html" class="link_footer">Início</a>
+        <a onclick="contato_popup.showModal()" class="link_footer">Contato</a>
+      </nav>
+    </div>
+
+    <dialog id="contato_popup">
+      <h2>Fale com a gente</h2>
+      <button onclick="contato_popup.close()">Fechar</button>
+    </dialog>
+
+    <hr>
+    <span class="footer_copy">© AutoSports - 2026 - Todos os direitos reservados.</span>
+  </footer>
+
+  <script>
+
+    let SenhaValida = false;
+
+    function Validar() {
+      let textos = ['Mínimo de 8 caracteres', 'Uma letra minúscula', 'Uma letra maiúscula', 'Um número', 'Um caractere especial (! @ # $ % & * _ - . , /)'];
+      let senha = ipt_CadastroSenha.value;
+      let numeros = '0123456789';
+      let letrasMin = 'abcdefghijklmnopqrstuvwxyz';
+      let letrasMai = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+      let caracterEspecial = '!@#$%&*_-.,/';
+
+   
+      let regras = [regra_tamanho, regra_min, regra_mai, regra_num, regra_esp];
+
+      
+      let cumpridas = [false, false, false, false, false];
+
+    
+      if (senha.length >= 8) {
+        cumpridas[0] = true;
+      }
+
+      
+      for (let i = 0; i < senha.length; i++) {
+        if (letrasMin.includes(senha[i])) {
+          cumpridas[1] = true;
+        }
+        if (letrasMai.includes(senha[i])) {
+          cumpridas[2] = true;
+        }
+        if (numeros.includes(senha[i])) {
+          cumpridas[3] = true;
+        }
+        if (caracterEspecial.includes(senha[i])) {
+          cumpridas[4] = true;
+        }
+      }
+
+
+      for (let i = 0; i < regras.length; i++) {
+        if (cumpridas[i] == true) {
+          regras[i].innerHTML = "✓ " + textos[i];
+          regras[i].style.color = "green";
+        } else {
+          regras[i].innerHTML = "○ " + textos[i];
+          regras[i].style.color = "gray";
+        }
+      }
+
+      
+      SenhaValida = true;
+      for (let i = 0; i < cumpridas.length; i++) {
+        if (cumpridas[i] == false) {
+          SenhaValida = false;
+        }
+      }
+
+      ValidarConfirmacao();
+    }
+
+  
+    function ValidarConfirmacao() {
+      let senha = ipt_CadastroSenha.value;
+      let confirma = ipt_CadastroConfirmarSenha.value;
+
+      if (confirma.length == 0) {
+        Mensagem_confirmacao.innerHTML = "";
+      }
+      else if (confirma == senha) {
+        Mensagem_confirmacao.innerHTML = "As senhas conferem";
+        Mensagem_confirmacao.style.color = "green";
+      }
+      else {
+        Mensagem_confirmacao.innerHTML = "As senhas não conferem";
+        Mensagem_confirmacao.style.color = "red";
+      }
+    }
+
+    function Cadastrar() {
+      let ax_Nome = ipt_CadastroNome.value.trim();
+      let ax_Email = ipt_CadastroEmail.value.trim();
+      let ax_Senha = ipt_CadastroSenha.value;
+      let ax_ConfirmaSenha = ipt_CadastroConfirmarSenha.value;
+
+     
+      Mensagem_cadastro.style.color = "red";
+
+      if (ax_Nome == '') {
+        Mensagem_cadastro.innerHTML = 'Informe seu nome completo para continuar.';
+      }
+      else if (ax_Nome.split(' ').length < 2) {
+        Mensagem_cadastro.innerHTML = 'Digite nome e sobrenome.';
+      }
+      else if (ax_Email == '') {
+        Mensagem_cadastro.innerHTML = 'Informe seu email para continuar.';
+      }
+      else if (!ax_Email.includes('@') || !ax_Email.includes('.') || ax_Email.indexOf('@') > ax_Email.lastIndexOf('.')) {
+        Mensagem_cadastro.innerHTML = 'Digite um email válido, como voce@email.com.';
+      }
+      else if (ax_Senha == '') {
+        Mensagem_cadastro.innerHTML = 'Crie uma senha para continuar.';
+      }
+      else if (!SenhaValida) {
+        Mensagem_cadastro.innerHTML = 'Sua senha precisa cumprir todas as regras da lista.';
+      }
+      else if (ax_ConfirmaSenha == '') {
+        Mensagem_cadastro.innerHTML = 'Digite a senha novamente para confirmar.';
+      }
+      else if (ax_ConfirmaSenha != ax_Senha) {
+        Mensagem_cadastro.innerHTML = 'As senhas não conferem.';
+      }
+      else {
+        Mensagem_cadastro.innerHTML = 'Cadastro realizado com sucesso!';
+        Mensagem_cadastro.style.color = "green";
+
+      }
+    }
+  </script>
+
+</body>
+
+</html>

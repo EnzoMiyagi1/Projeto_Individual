@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,300;0,400;0,600;0,700;0,900;1,700;1,900&display=swap');
+
+
+
+:root {
+    --asfalto: #15151e;
+    --grafite: #2a2a36;
+    --vermelho: #e10600;
+    --vermelho-escuro: #b30500;
+    --branco: #f5f5f7;
+    --cinza: #8a8a96;
+    --verde: #12a150;
+}
+
+
+
+html:has(:target) {
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+    color: var(--asfalto);
+}
+
+body {
+    background-color: var(--branco);
+    margin: 0;
+    padding: 0;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    min-height: 4rem;
+    padding: 0 1.5rem;
+    background-color: var(--asfalto);
+    border-bottom: 4px solid var(--vermelho);
+}
+
+.section_header {
+    display: flex;
+    align-items: center;
+}
+
+.texto_logo {
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    font-style: italic;
+}
+
+.logo_leve {
+    font-weight: 300;
+    letter-spacing: -0.05rem;
+}
+
+.logo_forte {
+    font-weight: 900;
+    color: var(--vermelho);
+}
+
+header .logo_leve {
+    color: var(--branco);
+}
+
+.menu_navegacao {
+    display: flex;
+    gap: 1.5rem;
+    font-weight: 700;
+}
+
+.link_header {
+    display: inline-block;
+    color: var(--branco);
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.link_header:hover {
+    color: var(--vermelho);
+    transform: scale(1.1);
+}
+
+.link_ativo {
+    color: var(--vermelho);
+    border-bottom: 2px solid var(--vermelho);
+}
+
+
+.PaginaCad {
+    width: 100%;
+
+   
+    .CadImagem {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 48rem;
+        padding: 2rem 1rem;
+        background-image:
+            linear-gradient(rgba(21, 21, 30, 0.55), rgba(21, 21, 30, 0.55)),
+            url(../assets/cadastro1/imagem-de-fundo.webp);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+   
+    .AreaDoCad {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        width: 100%;
+        max-width: 26rem;
+        padding: 2rem 1.5rem;
+        background-color: var(--branco);
+        border-top: 6px solid var(--vermelho);
+        border-radius: 0.8rem;
+       
+
+        .DivCad {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+        }
+
+        h2 {
+            font-size: 2.2rem;
+            font-weight: 900;
+            font-style: italic;
+            text-align: center;
+            margin: 0 0 0.5rem 0;
+        }
+
+        label {
+            font-weight: 700;
+            margin-top: 0.8rem;
+            margin-bottom: 0.25rem;
+        }
+
+        .LocalDeInsert {
+            height: 2.5rem;
+            width: 100%;
+            padding: 0 0.8rem;
+            font-family: inherit;
+            font-size: 1rem;
+            background-color: #fff;
+            border: 2px solid var(--asfalto);
+            border-radius: 0.5rem;
+           
+        }
+
+        .LocalDeInsert:focus {
+            outline: none;
+            border-color: var(--vermelho);
+             box-shadow: 0 0 0 3px rgba(225, 6, 0, 0.2); 
+        }
+
+        .DivBotao {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0.8rem;
+        }
+
+        .ButtonCad {
+            width: 14rem;
+            height: 3rem;
+            font-family: inherit;
+            font-size: 1.2rem;
+            font-weight: 700;
+            font-style: italic;
+            color: var(--branco);
+            background-color: var(--vermelho);
+            border: none;
+            border-radius: 0.5rem;
+            cursor: pointer;
+            
+        }
+
+        .ButtonCad:hover {
+            background-color: var(--vermelho-escuro);
+             transform: translateY(-2px); 
+        }
+
+       
+
+        .JaTemConta {
+            margin: 0;
+            font-size: 0.95rem;
+        }
+
+        .JaTemConta a {
+            color: var(--vermelho);
+            font-weight: 700;
+        }
+    }
+}
+
+
+
+.RegrasSenha {
+    list-style: none;
+    margin: 0.6rem 0 0 0;
+    padding: 0;
+    font-size: 0.9rem;
+}
+
+.RegrasSenha li {
+    margin-bottom: 0.2rem;
+    color: var(--cinza);
+}
+
+.Mensagem {
+    min-height: 1.3rem;
+    margin-top: 0.3rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.Mensagem.erro {
+    color: var(--vermelho);
+}
+
+.Mensagem.ok {
+    color: var(--verde);
+}
+
+.MensagemGeral {
+    width: 100%;
+    text-align: center;
+}
+
+footer {
+    padding: 1.5rem;
+    background-color: var(--asfalto);
+    border-top: 4px solid var(--vermelho);
+}
+
+.footer_topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .logo_leve,
+footer .footer_copy {
+    color: var(--branco);
+}
+
+.link_footer {
+    display: inline-block;
+    margin-left: 1.5rem;
+    color: var(--branco);
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.link_footer:hover {
+    color: var(--vermelho);
+}
+
+footer hr {
+    height: 0.15rem;
+    border: none;
+    background-color: var(--grafite);
+    margin: 1.2rem 0;
+}
+
+.footer_copy {
+    display: flex;
+    justify-content: center;
+    font-size: 0.9rem;
+}
+
+dialog {
+    border: 3px solid var(--vermelho);
+    border-radius: 0.8rem;
+    padding: 1.5rem;
+}
+
+dialog button {
+    margin-top: 1rem;
+    padding: 0.5rem 1.2rem;
+    font-family: inherit;
+    font-weight: 700;
+    color: var(--branco);
+    background-color: var(--vermelho);
+    border: none;
+    border-radius: 0.4rem;
+    cursor: pointer;
+}
+
+
+
+
+
