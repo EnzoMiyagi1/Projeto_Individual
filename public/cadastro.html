@@ -1,13 +1,12 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="./js/sessao.js"></script>
   <title>AutoSports | Cadastro</title>
-  <link rel="stylesheet" href="../cadastro/cadstyle.css">
-  <link rel="stylesheet" href="cadstyle.css">
-  <link rel="stylesheet" href="cadastro.css">
+  <link rel="stylesheet" href="./css/cadstyle.css">
 </head>
 
 <body>
@@ -21,9 +20,9 @@
 
     <div class="section_header">
       <nav class="menu_navegacao">
-        <a href="../institucional/institucional.html" class="link_header">Início</a>
+        <a href="index.html" class="link_header">Início</a>
         <a href="login.html" class="link_header">Login</a>
-        <a href="../cadastro/cadastro.html" class="link_header link_ativo">Cadastro</a>
+        <a href="cadastro.html" class="link_header link_ativo">Cadastro</a>
       </nav>
     </div>
   </header>
@@ -66,7 +65,7 @@
         <div id="Mensagem_cadastro" class="Mensagem MensagemGeral"></div>
 
         <div class="DivBotao">
-          <button class="ButtonCad" onclick="Cadastrar()">Criar conta</button>
+          <button id="btn_cadastrar" class="ButtonCad" onclick="Cadastrar()">Criar conta</button>
           <p class="JaTemConta">Já tem conta? <a href="login.html">Entrar</a></p>
         </div>
 
@@ -85,7 +84,7 @@
       </div>
 
       <nav>
-        <a href="index.html" class="link_footer">Início</a>
+        <a href="../institucional/institucional.html" class="link_footer">Início</a>
         <a onclick="contato_popup.showModal()" class="link_footer">Contato</a>
       </nav>
     </div>
@@ -111,18 +110,18 @@
       let letrasMai = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
       let caracterEspecial = '!@#$%&*_-.,/';
 
-   
+
       let regras = [regra_tamanho, regra_min, regra_mai, regra_num, regra_esp];
 
-      
+
       let cumpridas = [false, false, false, false, false];
 
-    
+
       if (senha.length >= 8) {
         cumpridas[0] = true;
       }
 
-      
+
       for (let i = 0; i < senha.length; i++) {
         if (letrasMin.includes(senha[i])) {
           cumpridas[1] = true;
@@ -149,7 +148,7 @@
         }
       }
 
-      
+
       SenhaValida = true;
       for (let i = 0; i < cumpridas.length; i++) {
         if (cumpridas[i] == false) {
@@ -160,7 +159,7 @@
       ValidarConfirmacao();
     }
 
-  
+
     function ValidarConfirmacao() {
       let senha = ipt_CadastroSenha.value;
       let confirma = ipt_CadastroConfirmarSenha.value;
@@ -184,7 +183,7 @@
       let ax_Senha = ipt_CadastroSenha.value;
       let ax_ConfirmaSenha = ipt_CadastroConfirmarSenha.value;
 
-     
+
       Mensagem_cadastro.style.color = "red";
 
       if (ax_Nome == '') {
@@ -212,11 +211,95 @@
         Mensagem_cadastro.innerHTML = 'As senhas não conferem.';
       }
       else {
-        Mensagem_cadastro.innerHTML = 'Cadastro realizado com sucesso!';
-        Mensagem_cadastro.style.color = "green";
+        // validações ok: envia os dados para o servidor (web-data-viz)
+        btn_cadastrar.disabled = true;
+        Mensagem_cadastro.style.color = "gray";
+        Mensagem_cadastro.innerHTML = 'Enviando...';
 
+        // os nomes à esquerda (nomeServer, emailServer, senhaServer)
+        // precisam ser iguais aos que o usuarioController lê em req.body
+        fetch("/usuarios/cadastrar", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            nomeServer: ax_Nome,
+            emailServer: ax_Email,
+            senhaServer: ax_Senha
+          })
+        })
+          .then(function (resposta) {
+            if (resposta.ok) {
+              Mensagem_cadastro.style.color = "green";
+              Mensagem_cadastro.innerHTML = 'Cadastro realizado com sucesso! Redirecionando para o login...';
+
+              setTimeout(function () {
+                window.location = "login.html";
+              }, 1500);
+            } else {
+              // o controller devolve a mensagem do MySQL no corpo da resposta
+              resposta.json().then(function (erro) {
+                Mensagem_cadastro.style.color = "red";
+
+                if (String(erro).includes("Duplicate")) {
+                  Mensagem_cadastro.innerHTML = 'Este email já está cadastrado.';
+                } else {
+                  Mensagem_cadastro.innerHTML = 'Não foi possível realizar o cadastro. Tente novamente.';
+                }
+                btn_cadastrar.disabled = false;
+              }).catch(function () {
+                Mensagem_cadastro.style.color = "red";
+                Mensagem_cadastro.innerHTML = 'Não foi possível realizar o cadastro. Tente novamente.';
+                btn_cadastrar.disabled = false;
+              });
+            }
+          })
+          .catch(function () {
+            Mensagem_cadastro.style.color = "red";
+            Mensagem_cadastro.innerHTML = 'Erro ao conectar com o servidor.';
+            btn_cadastrar.disabled = false;
+          });
       }
-    }
+       fetch("/usuarios/cadastrar", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        // crie um atributo que recebe o valor recuperado aqui
+        // Agora vá para o arquivo routes/usuario.js
+        nomeServer: nomeVar,
+        emailServer: emailVar,
+        senhaServer: senhaVar,
+        idEmpresaVincularServer: idEmpresaVincular
+      }),
+    })
+      .then(function (resposta) {
+        console.log("resposta: ", resposta);
+
+        if (resposta.ok) {
+          cardErro.style.display = "block";
+
+          mensagem_erro.innerHTML =
+            "Cadastro realizado com sucesso! Redirecionando para tela de Login...";
+
+          setTimeout(() => {
+            window.location = "login.html";
+          }, "2000");
+
+          limparFormulario();
+          finalizarAguardar();
+        } else {
+          throw "Houve um erro ao tentar realizar o cadastro!";
+        }
+      })
+      .catch(function (resposta) {
+        console.log(`#ERRO: ${resposta}`);
+        finalizarAguardar();
+      });
+
+    return false;
+  }
+    
   </script>
 
 </body>

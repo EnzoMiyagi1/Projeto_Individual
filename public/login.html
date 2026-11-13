@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AutoSports | Login</title>
+  <link rel="stylesheet" href="./css/login.css">
+</head>
+
+<body>
+  <header>
+    <div class="section_header">
+      <div class="texto_logo">
+        <span class="logo_leve">Auto</span>
+        <span class="logo_forte">Sports</span>
+      </div>
+    </div>
+
+    <div class="section_header">
+      <nav class="menu_navegacao">
+        <a href="index.html" class="link_header">Início</a>
+        <a href="login.html" class="link_header link_ativo">Login</a>
+        <a href="cadastro.html" class="link_header">Cadastro</a>
+      </nav>
+    </div>
+  </header>
+
+
+
+  <section id="PaginaCad" class="PaginaCad">
+    <div class="CadImagem">
+
+      <div class="AreaDoCad">
+
+        <div class="DivCad">
+          <h2>Entre com sua conta</h2>
+        </div>
+
+        <div class="DivCad">
+          <label for="ipt_LoginEmail">Email</label>
+          <input class="LocalDeInsert" type="email" id="ipt_LoginEmail">
+
+          <label for="ipt_LoginSenha">Senha</label>
+          <input class="LocalDeInsert" type="password" id="ipt_LoginSenha">
+        </div>
+
+        <div id="Mensagem_login" class="Mensagem MensagemGeral"></div>
+
+        <div class="DivBotao">
+          <button id="btn_entrar" class="ButtonCad" onclick="Entrar()">Entrar</button>
+          <p class="JaTemConta">Ainda não tem conta? <a href="../cadastro/cadastro.html">Cadastre-se</a></p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+
+  <footer>
+    <div class="footer_topo">
+      <div class="texto_logo">
+        <span class="logo_leve">Auto</span>
+        <span class="logo_forte">Sports</span>
+      </div>
+
+      <nav>
+        <a href="../institucional/institucional.html" class="link_footer">Início</a>
+        <a onclick="contato_popup.showModal()" class="link_footer">Contato</a>
+      </nav>
+    </div>
+
+    <dialog id="contato_popup">
+      <h2>Fale com a gente</h2>
+      <button onclick="contato_popup.close()">Fechar</button>
+    </dialog>
+
+    <hr>
+    <span class="footer_copy">© AutoSports - 2026 - Todos os direitos reservados.</span>
+  </footer>
+
+  <script>
+
+    const PAGINA_APOS_LOGIN = "../exemplo_de_quiz/EXEMPLO_QUIZZ.html";
+
+    // apertar Enter em qualquer campo também faz o login
+    ipt_LoginEmail.addEventListener("keydown", function (e) {
+      if (e.key == "Enter") Entrar();
+    });
+    ipt_LoginSenha.addEventListener("keydown", function (e) {
+      if (e.key == "Enter") Entrar();
+    });
+
+    function Entrar() {
+      let ax_Email = ipt_LoginEmail.value.trim();
+      let ax_Senha = ipt_LoginSenha.value;
+
+      Mensagem_login.style.color = "red";
+
+      if (ax_Email == '') {
+        Mensagem_login.innerHTML = 'Informe seu email para continuar.';
+      }
+      else if (ax_Senha == '') {
+        Mensagem_login.innerHTML = 'Informe sua senha para continuar.';
+      }
+      else {
+        btn_entrar.disabled = true;
+        Mensagem_login.style.color = "gray";
+        Mensagem_login.innerHTML = 'Entrando...';
+
+      
+        fetch("/usuarios/autenticar", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            emailServer: ax_Email,
+            senhaServer: ax_Senha
+          })
+        })
+          .then(function (resposta) {
+            if (resposta.ok) {
+              resposta.json().then(function (json) {
+                sessionStorage.ID_USUARIO = json.id;
+                sessionStorage.NOME_USUARIO = json.nomeCompleto;
+                sessionStorage.EMAIL_USUARIO = json.email;
+
+                Mensagem_login.style.color = "green";
+                Mensagem_login.innerHTML = 'Login realizado! Redirecionando...';
+
+                setTimeout(function () {
+                  window.location = PAGINA_APOS_LOGIN;
+                }, 1000);
+              });
+            } else {
+              Mensagem_login.style.color = "red";
+
+              if (resposta.status == 403) {
+                
+                Mensagem_login.innerHTML = 'Email ou senha incorretos.';
+              } else {
+                Mensagem_login.innerHTML = 'Não foi possível fazer o login. Tente novamente.';
+              }
+              btn_entrar.disabled = false;
+            }
+          })
+          .catch(function () {
+            Mensagem_login.style.color = "red";
+            Mensagem_login.innerHTML = 'Erro ao conectar com o servidor.';
+            btn_entrar.disabled = false;
+          });
+      }
+    }
+  </script>
+
+</body>
+
+</html>
