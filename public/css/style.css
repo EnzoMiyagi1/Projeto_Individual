@@ -93,6 +93,7 @@ header .logo_leve {
     display: flex;
     justify-content: center;
     align-items: center;
+    filter: brightness(90%);
 }
 
 .Inicio::after{
@@ -150,7 +151,7 @@ header .logo_leve {
     border-radius: 20px;
     border-style:solid;
     border-color: white;
-    background-image: url(../assets/imagem_teste.jpg);
+    background-image: url(../assets/imagem_kart1.png);
      background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -190,7 +191,7 @@ h2{
 }
 
 .historiaPessoal{
-    background-image: url(../assets/);
+    background-image: url(D:\CoisasAleatorias\imagem_kart);
     
 }
 

@@ -9,6 +9,7 @@ router.post("/registrar", function (req, res) {
 
 router.get("/resumo/:idUsuario", function (req, res) {
     tentativaController.resumo(req, res);
+
 });
 
 router.get("/historico/:idUsuario", function (req, res) {
@@ -18,5 +19,9 @@ router.get("/historico/:idUsuario", function (req, res) {
 router.get("/ranking", function (req, res) {
     tentativaController.ranking(req, res);
 });
+
+router.get("/ultima/:idUsuario", function(req,res){
+    tentativaController.ultima(req,res);
+})
 
 module.exports = router;
