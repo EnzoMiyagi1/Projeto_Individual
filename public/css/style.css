@@ -93,9 +93,10 @@ header .logo_leve {
     display: flex;
     justify-content: center;
     align-items: center;
+    filter: brightness(90%);
 }
 
-.Inicio::after{
+ .Inicio::after{
     content: "";
      filter: brightness(50%);
     position: absolute;
@@ -107,7 +108,8 @@ header .logo_leve {
         to bottom,
         transparent,
         #0C1319);
-}
+} 
+
 
  .Pagina_Inicio{
     color: var(--branco);
@@ -150,7 +152,7 @@ header .logo_leve {
     border-radius: 20px;
     border-style:solid;
     border-color: white;
-    background-image: url(../assets/imagem_teste.jpg);
+    background-image: url(../assets/imagem_kart1.png);
      background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -159,8 +161,7 @@ header .logo_leve {
 
 }
 
-
-.about::before{
+.about::after{
  content: "";
  filter: brightness(50%);
     position: absolute;
@@ -172,7 +173,22 @@ header .logo_leve {
         to top,
         transparent,
         #0C1319);
-}
+} 
+
+     .about::before{
+    content: "";
+     filter: brightness(50%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 180px;
+    background: linear-gradient(
+        to bottom,
+        transparent,
+        #0C1319);
+}  
+
 
 
 
@@ -190,9 +206,31 @@ h2{
 }
 
 .historiaPessoal{
-    background-image: url(../assets/);
+    background-image: url(D:\CoisasAleatorias\imagem_kart);
     
 }
+
+.Funcionamento{
+    min-height: 70vh;
+    background-color: grey;
+      position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+ .Funcionamento::before{
+    content: "";
+     filter: brightness(50%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 180px;
+    background: linear-gradient(
+        to top,
+        transparent,
+        #0C1319);
+}  
 
 
 

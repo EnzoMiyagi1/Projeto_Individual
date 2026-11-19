@@ -68,9 +68,24 @@ function ranking(req, res) {
         });
 }
 
+function ultima(req,res){
+    var idUsuario = Number(req.params.idUsuario);
+    if (!Number.isInteger(idUsuario) || idUsuario < 1) {
+        res.status(400).send("O idUsuario está inválido!");
+    } else {
+        tentativaModel.ultima(idUsuario)
+            .then(function (resultado) {
+                res.status(200).json(resultado);
+            }) .catch(function (erro) {
+                console.log("Houve um erro ao buscar o resumo! Erro: ", erro.sqlMessage);
+                res.status(500).json(erro.sqlMessage);
+            });
+        }}
+
 module.exports = {
     registrar,
     resumo,
     historico,
-    ranking
+    ranking,
+    ultima
 };

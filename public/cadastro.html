@@ -211,13 +211,12 @@
         Mensagem_cadastro.innerHTML = 'As senhas não conferem.';
       }
       else {
-        // validações ok: envia os dados para o servidor (web-data-viz)
+        
         btn_cadastrar.disabled = true;
         Mensagem_cadastro.style.color = "gray";
         Mensagem_cadastro.innerHTML = 'Enviando...';
 
-        // os nomes à esquerda (nomeServer, emailServer, senhaServer)
-        // precisam ser iguais aos que o usuarioController lê em req.body
+      
         fetch("/usuarios/cadastrar", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
@@ -236,7 +235,7 @@
                 window.location = "login.html";
               }, 1500);
             } else {
-              // o controller devolve a mensagem do MySQL no corpo da resposta
+             
               resposta.json().then(function (erro) {
                 Mensagem_cadastro.style.color = "red";
 
@@ -265,8 +264,7 @@
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
-        // crie um atributo que recebe o valor recuperado aqui
-        // Agora vá para o arquivo routes/usuario.js
+
         nomeServer: nomeVar,
         emailServer: emailVar,
         senhaServer: senhaVar,

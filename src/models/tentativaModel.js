@@ -47,9 +47,18 @@ function ranking() {
     return database.executar(instrucaoSql);
 }
 
+function ultima(idUsuario){
+    var instrucaoSql = `select id ,
+                acertos,
+               erros
+            from tentativa where fk_usuario = ${idUsuario} order by id desc limit 1;`;
+     return database.executar(instrucaoSql);
+}
+
 module.exports = {
     registrar,
     resumo,
     historico,
-    ranking
+    ranking,
+    ultima
 };
