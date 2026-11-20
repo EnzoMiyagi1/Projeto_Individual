@@ -11,9 +11,10 @@
 
 
 <body onload="onloadEsconder()">
-    <div id="pontuacaoEJogo">
-        <button id="btnIniciarQuiz" onclick="iniciarQuiz()">INICIAR QUIZ</button>
-        <button id="btnIrParaDash" onclick="window.location = '../dashboard/dashboard.html' ">Dashboard</button>
+  
+     <div id="pontuacaoEJogo">
+        <button class="btnInicio" id="btnIniciarQuiz" onclick="iniciarQuiz()">INICIAR QUIZ</button>
+        <button id="btnInicio" onclick="window.location = '../dashboard/dashboard.html' ">Dashboard</button>
 
         <div id="pontuacao" class="flex-colunar width-fit-content border-primary">
             <div id="pontuacaoDuranteJogo" class="flex-colunar padding-8">
@@ -70,7 +71,7 @@
             </div>
 
         </div>
-    </div>
+   
 </body>
 
 </html>
@@ -195,8 +196,8 @@
 
         btnSubmeter.disabled = false
         btnProx.disabled = true
-         btnConcluir.disabled = true
-        btnTentarNovamente.disabled = true
+         btnConcluir.disabled = false
+        btnTentarNovamente.disabled = false
     }
 
     function preencherHTMLcomQuestaoAtual(index) {

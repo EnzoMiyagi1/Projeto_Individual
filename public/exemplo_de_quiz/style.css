@@ -71,3 +71,7 @@ button {
 .text-new-gray {
     color: var(--new-gray);
 }
+
+.Fundo_Load_Quiz{
+    background-color: #095c36;
+}
