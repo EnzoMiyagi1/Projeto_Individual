@@ -1,0 +1,194 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="590" viewBox="0 0 800 590" role="img" aria-labelledby="t d" xmlns:c2pa="http://c2pa.org/manifest">
+<title id="t">Táticas de corrida na Fórmula 1</title>
+<desc id="d">Infográfico com quatro táticas: undercut em quatro cenas, overcut, parada sob Safety Car e escolha de pneus.</desc>
+<rect x="0" y="0" width="800" height="590" rx="0" fill="#161618" />
+<text x="20" y="36" font-family="Arial, 'Liberation Sans', Helvetica, sans-serif" font-size="26" font-weight="bold" fill="#ffffff" text-anchor="start">Táticas de corrida na Fórmula 1</text>
+<text x="20" y="58" font-family="Arial, 'Liberation Sans', Helvetica, sans-serif" font-size="15" font-weight="normal" fill="#c9c9d1" text-anchor="start">Quatro ideias que decidem corridas dentro e fora da pista.</text>
+<rect x="20" y="72" width="760" height="282" rx="14" fill="#212124" />
+<text x="36" y="104" font-family="Arial, 'Liberation Sans', Helvetica, sans-serif" font-size="24" font-weight="bold" fill="#ffffff" text-anchor="start">UNDERCUT</text>
+<text x="36" y="126" font-family="Arial, 'Liberation Sans', Helvetica, sans-serif" font-size="15" font-weight="normal" fill="#c9c9d1" text-anchor="start">Parar nos boxes antes do rival, para ganhar a posição com pneus novos.</text>
+<circle cx="588" cy="99" r="5" fill="#8d8d99"/>
+<text x="598" y="104" font-family="Arial, 'Liberation Sans', Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#c9c9d1" text-anchor="start">pneu gasto</text>
+<circle cx="692" cy="99" r="5" fill="#2ecc71"/>
+<text x="702" y="104" font-family="Arial, 'Liberation Sans', Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#c9c9d1" text-anchor="start">pneu novo</text>
+<circle cx="46" cy="154" r="10" fill="#32b9cd"/>
+<text x="46" y="159" font-family="Arial, 'Liberation Sans', Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#161618" text-anchor="middle">1</text>
+<text x="62" y="159" font-family="Arial, 'Liberation Sans', Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#32b9cd" text-anchor="start">VOLTA 19</text>
+<rect x="36" y="168" width="170" height="78" rx="8" fill="#3a3a42" />
+<line x1="44" y1="207" x2="198" y2="207" stroke="#8d8d99" stroke-width="2" stroke-dasharray="9 7"/>
+<rect x="36" y="252" width="170" height="30" rx="6" fill="#2c2c34" />
+<text x="200" y="272" font-family="Arial, 'Liberation Sans', Helvetica, sans-serif" font-size="12" font-weight="bold" fill="#8d8d99" text-anchor="end">BOXES</text>
+<text x="36" y="308" font-family="Arial, 'Liberation Sans', Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#ffffff" text-anchor="start">Rival 2 s à frente,</text>
+<text x="36" y="327" font-family="Arial, 'Liberation Sans', Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#ffffff" text-anchor="start">ambos com pneus gastos</text>
+<circle cx="232" cy="154" r="10" fill="#32b9cd"/>
+<text x="232" y="159" font-family="Arial, 'Liberation Sans', Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#161618" text-anchor="middle">2</text>
+<text x="248" y="159" font-family="Arial, 'Liberation Sans', Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#32b9cd" text-anchor="start">VOLTA 20</text>
+<rect x="222" y="168" width="170" height="78" rx="8" fill="#3a3a42" />
+<line x1="230" y1="207" x2="384" y2="207" stroke="#8d8d99" stroke-width="2" stroke-dasharray="9 7"/>
+<rect x="222" y="252" width="170" height="30" rx="6" fill="#2c2c34" />
+<text x="222" y="308" font-family="Arial, 'Liberation Sans', Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#ffffff" text-anchor="start">Você para primeiro e</text>
+<text x="222" y="327" font-family="Arial, 'Liberation Sans', Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#ffffff" text-anchor="start">troca por pneus novos</text>
+<circle cx="418" cy="154" r="10" fill="#32b9cd"/>
+<text x="418" y="159" font-family="Arial, 'Liberation Sans', Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#161618" text-anchor="middle">3</text>
+<text x="434" y="159" font-family="Arial, 'Liberation Sans', Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#32b9cd" text-anchor="start">VOLTA 21</text>
+<rect x="408" y="168" width="170" height="78" rx="8" fill="#3a3a42" />
+<line x1="416" y1="207" x2="570" y2="207" stroke="#8d8d99" stroke-width="2" stroke-dasharray="9 7"/>
+<rect x="408" y="252" width="170" height="30" rx="6" fill="#2c2c34" />
+<text x="572" y="272" font-family="Arial, 'Liberation Sans', Helvetica, sans-serif" font-size="12" font-weight="bold" fill="#8d8d99" text-anchor="end">BOXES</text>
+<text x="408" y="308" font-family="Arial, 'Liberation Sans', Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#ffffff" text-anchor="start">Pneus novos: você ganha</text>
+<text x="408" y="327" font-family="Arial, 'Liberation Sans', Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#ffffff" text-anchor="start">tempo a cada volta</text>
+<circle cx="604" cy="154" r="10" fill="#32b9cd"/>
+<text x="604" y="159" font-family="Arial, 'Liberation Sans', Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#161618" text-anchor="middle">4</text>
+<text x="620" y="159" font-family="Arial, 'Liberation Sans', Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#32b9cd" text-anchor="start">VOLTA 22</text>
+<rect x="594" y="168" width="170" height="78" rx="8" fill="#3a3a42" />
+<line x1="602" y1="207" x2="756" y2="207" stroke="#8d8d99" stroke-width="2" stroke-dasharray="9 7"/>
+<rect x="594" y="252" width="170" height="30" rx="6" fill="#2c2c34" />
+<text x="594" y="308" font-family="Arial, 'Liberation Sans', Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#ffffff" text-anchor="start">O rival para e volta</text>
+<text x="594" y="327" font-family="Arial, 'Liberation Sans', Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#ffffff" text-anchor="start">atrás de você</text>
+<g transform="translate(84,218) scale(0.62)">
+<rect x="-30" y="-14" width="17" height="7" rx="2" fill="#0c0c0f"/>
+<rect x="-30" y="7" width="17" height="7" rx="2" fill="#0c0c0f"/>
+<rect x="14" y="-14" width="17" height="7" rx="2" fill="#0c0c0f"/>
+<rect x="14" y="7" width="17" height="7" rx="2" fill="#0c0c0f"/>
+<rect x="-44" y="-12" width="9" height="24" rx="2" fill="#e10600"/>
+<rect x="33" y="-12" width="8" height="24" rx="2" fill="#e10600"/>
+<polygon points="-36,-7 8,-7 36,-2.5 36,2.5 8,7 -36,7" fill="#e10600"/>
+<circle cx="-6" cy="0" r="4.5" fill="#101012"/>
+</g>
+<circle cx="60" cy="188" r="5" fill="#8d8d99"/>
+<text x="69" y="192" font-family="Arial, 'Liberation Sans', Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#e10600" text-anchor="start">VOCÊ</text>
+<g transform="translate(160,218) scale(0.62)">
+<rect x="-30" y="-14" width="17" height="7" rx="2" fill="#0c0c0f"/>
+<rect x="-30" y="7" width="17" height="7" rx="2" fill="#0c0c0f"/>
+<rect x="14" y="-14" width="17" height="7" rx="2" fill="#0c0c0f"/>
+<rect x="14" y="7" width="17" height="7" rx="2" fill="#0c0c0f"/>
+<rect x="-44" y="-12" width="9" height="24" rx="2" fill="#32b9cd"/>
+<rect x="33" y="-12" width="8" height="24" rx="2" fill="#32b9cd"/>
+<polygon points="-36,-7 8,-7 36,-2.5 36,2.5 8,7 -36,7" fill="#32b9cd"/>
+<circle cx="-6" cy="0" r="4.5" fill="#101012"/>
+</g>
+<circle cx="136" cy="188" r="5" fill="#8d8d99"/>
+<text x="145" y="192" font-family="Arial, 'Liberation Sans', Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#32b9cd" text-anchor="start">RIVAL</text>
+<line x1="113" y1="232" x2="131" y2="232" stroke="#ffffff" stroke-width="2" />
+<line x1="113" y1="227" x2="113" y2="237" stroke="#ffffff" stroke-width="2" />
+<line x1="131" y1="227" x2="131" y2="237" stroke="#ffffff" stroke-width="2" />
+<text x="122" y="223" font-family="Arial, 'Liberation Sans', Helvetica, sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">2 s</text>
+<g transform="translate(262,267) scale(0.62)">
+<rect x="-30" y="-14" width="17" height="7" rx="2" fill="#0c0c0f"/>
+<rect x="-30" y="7" width="17" height="7" rx="2" fill="#0c0c0f"/>
+<rect x="14" y="-14" width="17" height="7" rx="2" fill="#0c0c0f"/>
+<rect x="14" y="7" width="17" height="7" rx="2" fill="#0c0c0f"/>
+<rect x="-44" y="-12" width="9" height="24" rx="2" fill="#e10600"/>
+<rect x="33" y="-12" width="8" height="24" rx="2" fill="#e10600"/>
+<polygon points="-36,-7 8,-7 36,-2.5 36,2.5 8,7 -36,7" fill="#e10600"/>
+<circle cx="-6" cy="0" r="4.5" fill="#101012"/>
+</g>
+<circle cx="304" cy="267" r="5" fill="#2ecc71"/>
+<text x="314" y="272" font-family="Arial, 'Liberation Sans', Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#e10600" text-anchor="start">PARADA</text>
+<g transform="translate(346,218) scale(0.62)">
+<rect x="-30" y="-14" width="17" height="7" rx="2" fill="#0c0c0f"/>
+<rect x="-30" y="7" width="17" height="7" rx="2" fill="#0c0c0f"/>
+<rect x="14" y="-14" width="17" height="7" rx="2" fill="#0c0c0f"/>
+<rect x="14" y="7" width="17" height="7" rx="2" fill="#0c0c0f"/>
+<rect x="-44" y="-12" width="9" height="24" rx="2" fill="#32b9cd"/>
+<rect x="33" y="-12" width="8" height="24" rx="2" fill="#32b9cd"/>
+<polygon points="-36,-7 8,-7 36,-2.5 36,2.5 8,7 -36,7" fill="#32b9cd"/>
+<circle cx="-6" cy="0" r="4.5" fill="#101012"/>
+</g>
+<circle cx="322" cy="188" r="5" fill="#8d8d99"/>
+<text x="331" y="192" font-family="Arial, 'Liberation Sans', Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#32b9cd" text-anchor="start">RIVAL</text>
+<line x1="302" y1="218" x2="316" y2="218" stroke="#ffffff" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+<g transform="translate(464,218) scale(0.62)">
+<rect x="-30" y="-14" width="17" height="7" rx="2" fill="#0c0c0f"/>
+<rect x="-30" y="7" width="17" height="7" rx="2" fill="#0c0c0f"/>
+<rect x="14" y="-14" width="17" height="7" rx="2" fill="#0c0c0f"/>
+<rect x="14" y="7" width="17" height="7" rx="2" fill="#0c0c0f"/>
+<rect x="-44" y="-12" width="9" height="24" rx="2" fill="#e10600"/>
+<rect x="33" y="-12" width="8" height="24" rx="2" fill="#e10600"/>
+<polygon points="-36,-7 8,-7 36,-2.5 36,2.5 8,7 -36,7" fill="#e10600"/>
+<circle cx="-6" cy="0" r="4.5" fill="#101012"/>
+</g>
+<circle cx="440" cy="188" r="5" fill="#2ecc71"/>
+<text x="449" y="192" font-family="Arial, 'Liberation Sans', Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#e10600" text-anchor="start">VOCÊ</text>
+<line x1="412" y1="210" x2="430" y2="210" stroke="#ffffff" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+<line x1="416" y1="218" x2="430" y2="218" stroke="#ffffff" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+<line x1="412" y1="226" x2="430" y2="226" stroke="#ffffff" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+<g transform="translate(540,218) scale(0.62)">
+<rect x="-30" y="-14" width="17" height="7" rx="2" fill="#0c0c0f"/>
+<rect x="-30" y="7" width="17" height="7" rx="2" fill="#0c0c0f"/>
+<rect x="14" y="-14" width="17" height="7" rx="2" fill="#0c0c0f"/>
+<rect x="14" y="7" width="17" height="7" rx="2" fill="#0c0c0f"/>
+<rect x="-44" y="-12" width="9" height="24" rx="2" fill="#32b9cd"/>
+<rect x="33" y="-12" width="8" height="24" rx="2" fill="#32b9cd"/>
+<polygon points="-36,-7 8,-7 36,-2.5 36,2.5 8,7 -36,7" fill="#32b9cd"/>
+<circle cx="-6" cy="0" r="4.5" fill="#101012"/>
+</g>
+<circle cx="516" cy="188" r="5" fill="#8d8d99"/>
+<text x="525" y="192" font-family="Arial, 'Liberation Sans', Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#32b9cd" text-anchor="start">RIVAL</text>
+<line x1="498" y1="218" x2="506" y2="218" stroke="#ffffff" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+<g transform="translate(634,267) scale(0.62)">
+<rect x="-30" y="-14" width="17" height="7" rx="2" fill="#0c0c0f"/>
+<rect x="-30" y="7" width="17" height="7" rx="2" fill="#0c0c0f"/>
+<rect x="14" y="-14" width="17" height="7" rx="2" fill="#0c0c0f"/>
+<rect x="14" y="7" width="17" height="7" rx="2" fill="#0c0c0f"/>
+<rect x="-44" y="-12" width="9" height="24" rx="2" fill="#32b9cd"/>
+<rect x="33" y="-12" width="8" height="24" rx="2" fill="#32b9cd"/>
+<polygon points="-36,-7 8,-7 36,-2.5 36,2.5 8,7 -36,7" fill="#32b9cd"/>
+<circle cx="-6" cy="0" r="4.5" fill="#101012"/>
+</g>
+<circle cx="676" cy="267" r="5" fill="#2ecc71"/>
+<text x="686" y="272" font-family="Arial, 'Liberation Sans', Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#32b9cd" text-anchor="start">PARADA</text>
+<g transform="translate(718,218) scale(0.62)">
+<rect x="-30" y="-14" width="17" height="7" rx="2" fill="#0c0c0f"/>
+<rect x="-30" y="7" width="17" height="7" rx="2" fill="#0c0c0f"/>
+<rect x="14" y="-14" width="17" height="7" rx="2" fill="#0c0c0f"/>
+<rect x="14" y="7" width="17" height="7" rx="2" fill="#0c0c0f"/>
+<rect x="-44" y="-12" width="9" height="24" rx="2" fill="#e10600"/>
+<rect x="33" y="-12" width="8" height="24" rx="2" fill="#e10600"/>
+<polygon points="-36,-7 8,-7 36,-2.5 36,2.5 8,7 -36,7" fill="#e10600"/>
+<circle cx="-6" cy="0" r="4.5" fill="#101012"/>
+</g>
+<circle cx="694" cy="188" r="5" fill="#2ecc71"/>
+<text x="703" y="192" font-family="Arial, 'Liberation Sans', Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#e10600" text-anchor="start">VOCÊ</text>
+<rect x="20" y="362" width="240" height="204" rx="14" fill="#212124" />
+<text x="36" y="394" font-family="Arial, 'Liberation Sans', Helvetica, sans-serif" font-size="18" font-weight="bold" fill="#ffffff" text-anchor="start">OVERCUT</text>
+<text x="36" y="512" font-family="Arial, 'Liberation Sans', Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#c9c9d1" text-anchor="start">O contrário do undercut:</text>
+<text x="36" y="530" font-family="Arial, 'Liberation Sans', Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#c9c9d1" text-anchor="start">ficar mais tempo na pista</text>
+<text x="36" y="548" font-family="Arial, 'Liberation Sans', Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#c9c9d1" text-anchor="start">e parar depois do rival.</text>
+<text x="36" y="424" font-family="Arial, 'Liberation Sans', Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#32b9cd" text-anchor="start">RIVAL  box na volta 18</text>
+<rect x="36" y="430" width="90" height="14" rx="3" fill="#32b9cd" />
+<rect x="126" y="430" width="110" height="14" rx="3" fill="#1e7683" />
+<line x1="126" y1="426" x2="126" y2="448" stroke="#212124" stroke-width="3" />
+<text x="36" y="468" font-family="Arial, 'Liberation Sans', Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#e10600" text-anchor="start">VOCÊ  box na volta 22</text>
+<rect x="36" y="474" width="110" height="14" rx="3" fill="#e10600" />
+<rect x="146" y="474" width="90" height="14" rx="3" fill="#8f0400" />
+<line x1="146" y1="470" x2="146" y2="492" stroke="#212124" stroke-width="3" />
+<rect x="280" y="362" width="240" height="204" rx="14" fill="#212124" />
+<text x="296" y="394" font-family="Arial, 'Liberation Sans', Helvetica, sans-serif" font-size="18" font-weight="bold" fill="#ffffff" text-anchor="start">SAFETY CAR</text>
+<text x="296" y="512" font-family="Arial, 'Liberation Sans', Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#c9c9d1" text-anchor="start">Com o pelotão lento,</text>
+<text x="296" y="530" font-family="Arial, 'Liberation Sans', Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#c9c9d1" text-anchor="start">parar custa menos tempo</text>
+<text x="296" y="548" font-family="Arial, 'Liberation Sans', Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#c9c9d1" text-anchor="start">e menos posições.</text>
+<text x="296" y="424" font-family="Arial, 'Liberation Sans', Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#c9c9d1" text-anchor="start">Corrida normal</text>
+<rect x="296" y="430" width="200" height="16" rx="4" fill="#e10600" />
+<text x="296" y="468" font-family="Arial, 'Liberation Sans', Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#c9c9d1" text-anchor="start">Sob Safety Car</text>
+<rect x="296" y="474" width="100" height="16" rx="4" fill="#2ecc71" />
+<text x="504" y="424" font-family="Arial, 'Liberation Sans', Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#8d8d99" text-anchor="end">mais tempo</text>
+<text x="406" y="487" font-family="Arial, 'Liberation Sans', Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#8d8d99" text-anchor="start">menos tempo</text>
+<rect x="540" y="362" width="240" height="204" rx="14" fill="#212124" />
+<text x="556" y="394" font-family="Arial, 'Liberation Sans', Helvetica, sans-serif" font-size="18" font-weight="bold" fill="#ffffff" text-anchor="start">PNEUS</text>
+<text x="556" y="512" font-family="Arial, 'Liberation Sans', Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#c9c9d1" text-anchor="start">Macio: mais aderência,</text>
+<text x="556" y="530" font-family="Arial, 'Liberation Sans', Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#c9c9d1" text-anchor="start">mas desgasta mais rápido.</text>
+<text x="556" y="548" font-family="Arial, 'Liberation Sans', Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#c9c9d1" text-anchor="start">Prova seca: use 2 tipos.</text>
+<text x="556" y="424" font-family="Arial, 'Liberation Sans', Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#c9c9d1" text-anchor="start">+ aderência</text>
+<text x="764" y="424" font-family="Arial, 'Liberation Sans', Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#c9c9d1" text-anchor="end">+ durável</text>
+<circle cx="578" cy="452" r="14" fill="#e10600"/>
+<circle cx="578" cy="452" r="7" fill="#161618" fill-opacity="0.35"/>
+<text x="578" y="484" font-family="Arial, 'Liberation Sans', Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">Macio</text>
+<circle cx="660" cy="452" r="14" fill="#ffd23f"/>
+<circle cx="660" cy="452" r="7" fill="#161618" fill-opacity="0.35"/>
+<text x="660" y="484" font-family="Arial, 'Liberation Sans', Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">Médio</text>
+<circle cx="742" cy="452" r="14" fill="#f2f2f2"/>
+<circle cx="742" cy="452" r="7" fill="#161618" fill-opacity="0.35"/>
+<text x="742" y="484" font-family="Arial, 'Liberation Sans', Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">Duro</text>
+<text x="20" y="584" font-family="Arial, 'Liberation Sans', Helvetica, sans-serif" font-size="12" font-weight="normal" fill="#8d8d99" text-anchor="start">Exemplos ilustrativos, feitos para estudo. AutoSports</text>
+<metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTpkY2M2NjE3My01MDIyLTQ4MjctYjI1MS04Yjg1OTdlMmVmZDAAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaPR6v2mJtrffVZ8OqVFPk6oAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDo4ODIxYjE0Ny01NTRkLTQ0MmEtYjU3NS0yOGI1ZDMxMDE5MTFscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNoJ81e4wVG5RClP1Ic+ZSJoAAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFgg/xcuGPgjch/dOdOdAOnpLg0ux7Ff2JJd4+fokDLX7+2kZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaCfMeM+uosPKMmzVCb/rgUkAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRMAAAAAAAAAAAAAAAAZGhhc2hYIG9z8MZpjkIpX4whlEhQIQm7DKM+8Gn7h50PgsotPSyzZG5hbWVuanVtYmYgbWFuaWZlc3RqZXhjbHVzaW9uc4GiZXN0YXJ0GUlbZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOmRjYzY2MTczLTUwMjItNDgyNy1iMjUxLThiODU5N2UyZWZkMC9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOmI0MmY0ZTVmLTcxMGItNDliYy04ZTQzLWZhMGM5M2YyNjg0N3JjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCD/Fy4Y+CNyH905050A6ekuDS7HsV/Ykl3j5+iQMtfv7aJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFgg3yC8lt3tnuOOCFBqHAta2cYSMEbz8URIKKc+KqC8koyiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggMqZjaFiPtP636pc4p/N0jF3qrfBwtBwUdv9iYNJ21ol0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQLw/t2XgSuMx8x0qfuTTOqB6zeVnCKyJ1wIZ0rlQVRc1L67nz7OjyZuRTwM0WIwq/KcZunCeMknWADjZYbOfnbs=</c2pa:manifest></metadata></svg>

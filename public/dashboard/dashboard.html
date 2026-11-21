@@ -25,19 +25,26 @@
                 <h3>Olá, <span id="b_usuario">usuário</span>!</h3>
             </div>
 
-            <div class="btn-nav-white">
-                <a href="../exemplo_de_quiz/EXEMPLO_QUIZZ.html">
-                    <h3>Quiz</h3>
-                </a>
+          
+              <div class="quiz" >
+                 <button class="btn-sideBar" onclick="Quiz()">Quiz</button>
             </div>
 
-            <div class="btn-nav">
-                <h3>Dashboard</h3>
+            
+              <div class="DashBoard-esquerdo" >
+                 <button class="btn-sideBar" >Dashboard</button>
             </div>
 
-            <div class="btn-logout" onclick="limparSessao()">
-                <h3>Sair</h3>
+        
+            <div class="Historia" >
+                 <button class="btn-sideBar" onclick="historia()">Historia</button> 
             </div>
+
+            <div class="logout" >
+                <button class="btn-sideBar" onclick="limparSessao()">Log Out</button>
+            </div>
+
+            
         </div>
 
         <div class="dash">
@@ -109,6 +116,15 @@
     </div>
 
     <script>
+        function Quiz(){
+            window.location = '../exemplo_de_quiz/EXEMPLO_QUIZZ.html'
+        }
+
+        function historia(){
+            window.location = './historia.html'
+        }
+        
+
         validarSessao();
 
         Chart.defaults.color = '#e6e6ea';

@@ -24,7 +24,6 @@ canvas {
  
        background-position: center;
     background-repeat: repeat-y;
-    /* filter: brightness(70%); */
     position: fixed;
     top: 0;
     left: 0;
@@ -86,7 +85,24 @@ canvas {
     font-weight: 800;
 }
 
+.btn-sideBar:hover{
+  
+    transform: translate(5px,-5px) ;
+}
 
+.btn-sideBar{
+      font-size: 20px;
+    width: 120px;
+    height:40px ;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    border-style: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+/* 
 .btn-nav {
     width: 40%;
     color: white;
@@ -94,40 +110,56 @@ canvas {
     border-radius: 5px;
     text-align: center;
     padding: 2% 5%;
-}
+} */
 
 
-.btn-nav-white {
-    width: 40%;
-    background-color: white;
-    border: 3px solid #e6005a;
+.Quiz{
+       font-size: 20px;
+    width: 120px;
+    height:40px ;
     border-radius: 5px;
-    text-align: center;
-    padding: 2% 5%;
-}
-
-.btn-nav-white h3 {
-    color: #e6005a;
-    padding: 0;
-    margin: 0;
-}
-
-.btn-nav h3,
-.btn-logout h3 {
-    margin: 0;
-    padding: 0;
-}
-
-.btn-logout {
-    width: 20%;
-    background-color: #32b9cd;
-    color: white;
-    border-radius: 10px;
-    text-align: center;
-    padding: 10px 15px;
-    margin-bottom: 100px;
+    background-color: white;
+    color: black;
+    border-style: none;
     cursor: pointer;
 }
+
+
+.Dashboard-esquerdo{
+      font-size: 20px;
+    width: 120px;
+    height:40px ;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    border-style: none;
+    cursor: pointer;
+}
+
+
+
+
+.LogOut {
+    font-size: 20px;
+    width: 120px;
+    height:40px ;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    border-style: none;
+    cursor: pointer;
+}
+
+/* .Historia{
+    font-size: 20px;
+    width: 120px;
+    height:40px ;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    border-style: none;
+    cursor: pointer;
+} */
 
 /* Dashboard */
 
