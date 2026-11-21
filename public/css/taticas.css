@@ -1,4 +1,15 @@
 
+:root {
+    --asfalto: #15151e;
+    --grafite: #2a2a36;
+    --vermelho: #e10600;
+    --vermelho-escuro: #b30500;
+    --branco: #f5f5f7;
+    --cinza: #8a8a96;
+    --verde: #12a150;
+}
+
+
 body {
     margin: 0;
     padding: 0;
@@ -146,6 +157,23 @@ header .logo_leve {
     width: 67px;
     height:30px ;
     border-radius: 5px;
+    background-color: var(--asfalto);
+    color: white;
+    border-style: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn-sideBar1:hover{
+  
+    transform: translate(5px,-5px) ;
+}
+
+.btn-sideBar1{
+      font-size: 15px;
+    width:90px;
+    height:35px ;
+    border-radius: 5px;
     background-color: white;
     color: black;
     border-style: none;
@@ -194,7 +222,7 @@ header .logo_leve {
 }
 .Estrategias{
         box-sizing: border-box;
-     height: 93.67vh;
+     height: 93.1vh;
     position: relative;
    width: 80%;
     top: 0;
@@ -206,7 +234,7 @@ header .logo_leve {
     content:"";
     position: absolute;
     inset: 0;
-     background-image: url("../assets/bandeirada.jpg");
+     background-image: url("../assets/fundo-taticas.webp");
      background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

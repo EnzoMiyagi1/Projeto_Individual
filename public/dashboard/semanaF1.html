@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/semanaF1.css">
+    <script src="../js/sessao.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+
+   <div class="janela">
+        <div class="header-left">
+            <h1>Material Estudos</h1>
+            
+           
+            <div class="Historia" >
+                 <button class="btn-sideBar1" onclick="historia()">Bandeiras</button> 
+            </div>
+
+            <div class="taticas" >
+                <button class="btn-sideBar1" onclick="taticas()">Táticas</button>
+            </div>
+         
+            <div class="pneus">
+                <button class="btn-sideBar1" onclick="pneus()">Pneus</button>
+            </div>
+
+            <div class="semanaF1">
+                <button class="btn-sideBar1" onclick="semanaF1()">Semana F1</button>
+            </div>
+
+            <div class="pontuacoes">
+                <button class="btn-sideBar1" onclick="pilotos()">Pilotos</button>
+            </div>
+
+        </div>
+    </div>
+
+    <header>
+    <div class="section_header">
+      <div class="texto_logo">
+        <span class="logo_leve">Auto</span>
+        <span class="logo_forte">Sports</span>
+      </div>
+    </div>
+
+       <div class="section_header">
+        <div class="DashBoard-esquerdo" >
+                 <button class="btn-sideBar" onclick="dashboard()" >Dashboard</button>
+            </div>
+
+        
+            <div class="Historia" >
+                 <button class="btn-sideBar" onclick="historia()">Estudos</button> 
+            </div>
+      
+    </div>
+
+    <div class="section_header">
+      <nav class="menu_navegacao">
+           <div class="quiz" >
+                 <button class="btn-sideBar" onclick="Quiz()">Quiz</button>
+            </div>
+         <div class="logout" >
+                <button class="btn-sideBar" onclick="limparSessao()">Log Out</button>
+            </div>
+       
+      </nav>
+    </div>
+  </header>
+
+
+        
+        <section class="Semana">
+                  <div class="explicacao-semana">
+                    <div class="imagem-semana">
+                        <img src="../assets/semanF1-Principal.png" alt="">
+                    </div>
+            </div>
+        </section>
+
+      
+
+        
+    
+</body>
+
+<script>
+
+
+    function historia(){
+        window.location = "./historia.html"
+    }
+
+    function Quiz(){
+        window.location = "../exemplo_de_quiz/EXEMPLO_QUIZZ.html"
+    }
+    
+    function dashboard(){
+        window.location = "./dashboard.html"
+    }
+    
+    
+    function taticas(){
+        window.location = "./taticas.html"
+    }
+
+
+    function pneus(){
+        window.location = "./pneus.html"
+    }
+
+  
+
+    function pilotos(){
+        window.location = "./pilotos.html"
+    }
+    </script>
+    </html>
