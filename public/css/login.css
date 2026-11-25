@@ -191,3 +191,64 @@ header .logo_leve {
             background-color: var(--vermelho-escuro);
              transform: translateY(-2px); 
         }}}
+
+        footer {
+    padding: 1.5rem;
+    background-color: var(--asfalto);
+    border-top: 4px solid var(--vermelho);
+}
+
+.footer_topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .logo_leve,
+footer .footer_copy {
+    color: var(--branco);
+}
+
+.link_footer {
+    display: inline-block;
+    margin-left: 1.5rem;
+    color: var(--branco);
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.link_footer:hover {
+    color: var(--vermelho);
+}
+
+footer hr {
+    height: 0.15rem;
+    border: none;
+    background-color: var(--grafite);
+    margin: 1.2rem 0;
+}
+
+.footer_copy {
+    display: flex;
+    justify-content: center;
+    font-size: 0.9rem;
+}
+
+dialog {
+    border: 3px solid var(--vermelho);
+    border-radius: 0.8rem;
+    padding: 1.5rem;
+}
+
+dialog button {
+    margin-top: 1rem;
+    padding: 0.5rem 1.2rem;
+    font-family: inherit;
+    font-weight: 700;
+    color: var(--branco);
+    background-color: var(--vermelho);
+    border: none;
+    border-radius: 0.4rem;
+    cursor: pointer;
+}
