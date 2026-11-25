@@ -5,10 +5,8 @@
 /*
 comandos para mysql server
 */
-
 create database AutoSports;
 use AutoSports;
-
 
 create table usuario (
     id int primary key auto_increment,
@@ -37,7 +35,8 @@ create table alternativa (
     fk_pergunta int not null,
     constraint fk_alternativa_pergunta foreign key (fk_pergunta) references pergunta(id)
 );
-select * from usuario; 
 
-select id,nomeCompleto,email from usuario where email = 'asfd@gmail.com' and senha = 'Enzoyuka2,';
-select * from usuario;
+alter table tentativa add column erros int not null default 0,
+						add column dt_tentativa timestamp null default current_timestamp;
+                        
+                        select * from tentativa;
